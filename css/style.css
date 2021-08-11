@@ -1,0 +1,257 @@
+/* Logo font style - font-family: 'Lobster', cursive; */
+
+/* text family - font-family: sans-serif */
+
+/* 
+    Colors:
+    bottom-header color: #4ecec1,
+    main color: #3cc3b5,
+    button color: #44c69a,
+    bottom footer color: #2ea89b,
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: coral;
+}
+
+/* Start Header */
+
+.logo {
+    font-family: 'Lobster';
+    font-size: 48px;
+    color: #3cc3b5;
+}
+
+.top-header-content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.logo {
+    margin: 0;
+}
+
+.search {
+    height: 25px;
+}
+
+.shopping-cart {
+    display: flex;
+}
+
+.top-nav-item-text {
+    margin-top: 14px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.inner-bottomHeader {
+    height: 35px;
+    background-color: #4ecec1;
+}
+
+.main-nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.main-nav-item {
+    padding-top: 9px;
+    margin-right: 35px;
+    font-family: sans-serif;
+}
+
+/* End Header */
+
+/* Start Main */
+
+.inner-section1 {
+    background-color: #3cc3b5;
+    height: 450px;
+}
+
+.main-section1-image {
+    padding-top: 50px;
+    margin-left: 575px;
+}
+
+.main-section1-content {
+    float: right;
+    margin-top: -365px;
+    margin-right: 520px;
+    width: 25%;
+}
+
+.main-section1-content .sub-header {
+    text-transform: uppercase;
+    color: white;
+    width: 85%;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.main-section1-text {
+    margin-top: -20px;
+    width: 110%;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+}
+
+.shop-now {
+    padding: 10px;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.sliders {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-section2 {
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-around;
+}
+
+.branded-shoes-content, .branded-tshirts-content, .branded-shorts-content {
+    float: right;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.branded-shoes .sub-header, .branded-tshirts .sub-header, .branded-shorts .sub-header {
+    color: #a8a8a8;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    width: 120px;
+}
+
+.shop {
+    background-color: #44c69a;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #44c69a;
+    width: 75px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 750;
+}
+
+.inner-section3 h2 {
+    background-color: #3cc3b5;
+    padding: 15px;
+    padding-left: 25px;
+    font-family: sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.feat-prod-list {
+    margin-left: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+    height: 750px;
+    /* border: 1px solid red; */
+}
+
+.feat-prod-item {
+    /* border: 1px solid green; */
+}
+
+.feat-prod-item h3 {
+    margin: 0;
+    font-family: sans-serif;
+    color: #a8a8a8;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+
+.buy-now {
+    margin-top: -55px;
+    margin-right: 35px;
+    float: right;
+    background-color: #44c69a;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #44c69a;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.feat-prod-item p {
+    margin-top: 25px;
+    padding-left: 55px;
+    font-size: 24px;
+}
+
+.inner-footer {
+    background-color: #3cc3b5;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top-footer h2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.top-footer-content {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.bottom-footer {
+    background-color: #2ea89b;
+    height: 50px;
+    text-align: center;
+}
+
+.colophon-text {
+    padding-top: 15px;
+    color: white;
+}
