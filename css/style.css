@@ -4,9 +4,10 @@
 
 /* 
     Colors:
-    bottom-header color: #4ecec1,
     main color: #3cc3b5,
+    bottom-header color: #4ecec1,
     button color: #44c69a,
+    branded name color: #a8a8a8,
     bottom footer color: #2ea89b,
 */
 
@@ -163,7 +164,26 @@ a:hover {
 .inner-section2 {
     padding-top: 25px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.paddle-left, .paddle-right {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.paddle:hover {
+    cursor: pointer;
+}
+
+.greater-than {
+    height: 150px;
+    width: 50px;
+}
+
+.less-than {
+    height: 175px;
+    width: 45px;
 }
 
 .branded-shoes-content, .branded-tshirts-content, .branded-shorts-content {
@@ -215,10 +235,6 @@ a:hover {
     width: 50%;
     height: 750px;
     /* border: 1px solid red; */
-}
-
-.feat-prod-item {
-    /* border: 1px solid green; */
 }
 
 .feat-prod-item h3 {
